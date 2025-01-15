@@ -1,0 +1,46 @@
+[gd_resource type="Environment" load_steps=3 format=3 uid="uid://dpqwvh8oecwhs"]
+
+[sub_resource type="PhysicalSkyMaterial" id="PhysicalSkyMaterial_058jj"]
+
+[sub_resource type="Sky" id="Sky_layvj"]
+sky_material = SubResource("PhysicalSkyMaterial_058jj")
+radiance_size = 4
+
+[resource]
+background_mode = 2
+background_energy_multiplier = 0.05
+background_intensity = 1.0
+sky = SubResource("Sky_layvj")
+ambient_light_source = 3
+ambient_light_color = Color(0.348119, 0.596123, 0.916212, 1)
+ambient_light_sky_contribution = 0.3
+ambient_light_energy = 0.0
+reflected_light_source = 2
+tonemap_mode = 1
+tonemap_exposure = 0.45
+tonemap_white = 0.1
+ssr_enabled = true
+ssao_enabled = true
+ssao_radius = 1.65
+ssao_power = 2.27357
+ssil_enabled = true
+sdfgi_enabled = true
+sdfgi_use_occlusion = true
+sdfgi_cascades = 6
+fog_enabled = true
+fog_mode = 1
+fog_light_color = Color(0.427564, 0.461315, 0.514361, 1)
+fog_sun_scatter = 0.31
+fog_density = 0.7094
+fog_sky_affect = 0.301
+fog_height_density = 1.3699
+fog_depth_curve = 1.56916
+fog_depth_begin = 459.5
+fog_depth_end = 4000.0
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.0025
+volumetric_fog_albedo = Color(1, 1, 0.909804, 1)
+volumetric_fog_emission = Color(1, 1, 1, 1)
+volumetric_fog_anisotropy = -0.27
+volumetric_fog_detail_spread = 1.10957
+volumetric_fog_ambient_inject = 0.55

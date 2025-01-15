@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dys0f58ytiqs8"]
+
+[resource]
+resource_name = "Body"
+cull_mode = 2
+albedo_color = Color(0.906758, 0.204042, 0.174518, 1)
+metallic = 0.77
+roughness = 0.229469
+rim_tint = 0.04
+anisotropy = -1.0
+subsurf_scatter_strength = 0.14
